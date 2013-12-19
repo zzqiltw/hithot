@@ -37,6 +37,16 @@ public class RegisterServlet extends HttpServlet {
 				return;
 			}
 			
+			
+			String client_checkcode = request.getParameter("client_checkcode");
+			String checkCode = ((String) request.getSession().getAttribute("checkcode"));
+			if (client_checkcode == null || !client_checkcode.equals(checkCode)) {
+				request.setAttribute("message",
+						"ÑéÖ¤Âë´íÎó£¡");
+				request.getRequestDispatcher("/WEB-INF/jsp/message.jsp").forward(request, response);
+				return;
+			}
+			
 			User user = new User();
 			BeanUtils.copyProperties(user, form);
 			

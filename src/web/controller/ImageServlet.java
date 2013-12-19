@@ -34,7 +34,7 @@ public class ImageServlet extends HttpServlet {
 	
 		setRandomLine(g);
 		
-		String randomNum = drawRandomData2(g);
+		String randomNum = drawRandomData1(g);
 		
 		response.setHeader("Expires", "-1");
 		response.setHeader("Cache-Control","no-cache");
@@ -90,11 +90,11 @@ public class ImageServlet extends HttpServlet {
 	}
 	
 
-	private void drawRandomData1(Graphics g) {
+	private String drawRandomData1(Graphics g) {
 		
 		StringBuffer sb = new StringBuffer();
 		for(int i=0;i<5;i++){
-			sb.append(new Random().nextInt(10) + " ");
+			sb.append(new Random().nextInt(10));
 		}
 		String randomData = sb.toString();
 		
@@ -103,6 +103,7 @@ public class ImageServlet extends HttpServlet {
 		g.setFont(new Font("ËÎÌו",Font.BOLD,20));
 		
 		g.drawString(randomData, 10, 20);
+		return randomData;
 	}
 	
 
