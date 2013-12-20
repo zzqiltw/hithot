@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>web.ui.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>web.ui.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>web.controller.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>web.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>web.ui.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>web.controller.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Post</servlet-name>
+    <servlet-class>web.ui.Post</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PostServlet</servlet-name>
+    <servlet-class>web.controller.PostServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewServlet</servlet-name>
+    <servlet-class>web.controller.ViewServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeletePoint</servlet-name>
+    <servlet-class>web.controller.DeletePoint</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImageServlet</servlet-name>
+    <servlet-class>web.controller.ImageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditPoint</servlet-name>
+    <servlet-class>web.controller.EditPoint</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Detail</servlet-name>
+    <servlet-class>web.controller.Detail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewTodayHIT</servlet-name>
+    <servlet-class>web.controller.ViewTodayHIT</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>web.controller.Search</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PostImage</servlet-name>
+    <servlet-class>web.controller.PostImage</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/servlet/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/servlet/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/servlet/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/servlet/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Post</servlet-name>
+    <url-pattern>/servlet/Post</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostServlet</servlet-name>
+    <url-pattern>/servlet/PostServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewServlet</servlet-name>
+    <url-pattern>/servlet/ViewServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletePoint</servlet-name>
+    <url-pattern>/servlet/DeletePoint</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImageServlet</servlet-name>
+    <url-pattern>/servlet/ImageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditPoint</servlet-name>
+    <url-pattern>/servlet/EditPoint</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Detail</servlet-name>
+    <url-pattern>/servlet/Detail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewTodayHIT</servlet-name>
+    <url-pattern>/servlet/ViewTodayHIT</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/servlet/Search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostImage</servlet-name>
+    <url-pattern>/servlet/PostImage</url-pattern>
+  </servlet-mapping>	
+  
+  <filter>
+  	<filter-name>CharacterEncodingFilter</filter-name>
+  	<filter-class>filter.CharacterEncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>CharacterEncodingFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  	<dispatcher>FORWARD</dispatcher>
+  	<dispatcher>REQUEST</dispatcher>
+  </filter-mapping>
+  
+    <filter>
+  	<filter-name>WordsFilter</filter-name>
+  	<filter-class>filter.WordsFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>WordsFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  	<dispatcher>FORWARD</dispatcher>
+  	<dispatcher>REQUEST</dispatcher>
+  </filter-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
