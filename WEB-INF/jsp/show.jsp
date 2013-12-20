@@ -8,6 +8,7 @@
     <title>show</title>
   </head>
   <body>
+<meta http-equiv="refresh" content="10">
    <form action = "${pageContext.request.contextPath }/servlet/Search" method = "get">
    	<input type = "text" name = "keyword">
    	<input type = "submit" value = "search">
